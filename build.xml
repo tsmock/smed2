@@ -27,9 +27,9 @@
 **
 **
 -->
-<project name="myPluginName" default="dist" basedir=".">
+<project name="SeaMapEditor2" default="dist" basedir=".">
     <!-- enter the SVN commit message -->
-    <property name="commit.message" value="Commit message"/>
+    <property name="commit.message" value="New release"/>
     <!-- enter the *lowest* JOSM version this plugin is currently compatible with -->
     <property name="plugin.main.version" value="4394"/>
     <!-- should not be necessary to change the following properties -->
@@ -93,12 +93,12 @@
             ************************************************
             -->
             <manifest>
-                <attribute name="Author" value="..."/>
-                <attribute name="Plugin-Class" value="..."/>
+                <attribute name="Author" value="Malcolm Herring"/>
+                <attribute name="Plugin-Class" value="smed.Smed"/>
                 <attribute name="Plugin-Date" value="${version.entry.commit.date}"/>
-                <attribute name="Plugin-Description" value="..."/>
-                <attribute name="Plugin-Icon" value="..."/>
-                <attribute name="Plugin-Link" value="..."/>
+                <attribute name="Plugin-Description" value="Create and edit seamaps for OpenSeaMap"/>
+                <attribute name="Plugin-Icon" value="images/Smed.png"/>
+                <attribute name="Plugin-Link" value="http://openseamap.org/"/>
                 <attribute name="Plugin-Mainversion" value="${plugin.main.version}"/>
                 <attribute name="Plugin-Version" value="${version.entry.commit.revision}"/>
             </manifest>
